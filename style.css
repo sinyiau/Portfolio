@@ -18,21 +18,24 @@
 #nav-bar {
     display: flex;
     flex-direction: row;
-    background-color:#9ea8b2;
-    position: fixed;
-    bottom: 10%;
-    width: 80%;
-    border-radius:20px;
+    background-color:yellow;
     height: 55px;
+    border-radius: 15px;
 }
 
 .nav-button {
     margin: auto;
+    transition: color .3s;
+    text-decoration: none;
+    background-color: #9ea8b2;
     color:white;
-    background-color:#707f8f;
     border-radius: 15px;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding: 5px 20px;
+
+    &:hover {
+        color: black;
+    }
+    
 }
 
 body{
