@@ -107,6 +107,27 @@ p{
     width: 25%;
 }
 
+.flex-container-2{
+    display: flex;
+    justify-content:space-evenly;
+    margin: auto;
+}
+
+.item-3 {
+    width: 30%;
+    padding-left: 10%;
+}
+
+.item-4 {
+    width: 55%;
+    padding-right: 10%;
+}
+
+.item-4 p{
+    font-size: 0.8em;
+    text-align:justify;
+}
+
 .icon-container {
     display: flex;
     flex-direction: row;
