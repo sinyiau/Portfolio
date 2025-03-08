@@ -23,6 +23,11 @@
     .flex-container {
         flex-direction: column;
     }
+
+    .visualization-container{
+        flex-direction:column;
+    }
+
 }
 
 #nav-bar {
@@ -57,7 +62,7 @@ body{
 }
 
 h1{
-    font-size: 3.5em;
+    font-size: 3em;
     color:#180782;
     line-height: 1.2em;
     font-weight: 300;
@@ -189,6 +194,7 @@ p{
 
 .visualization-container{
     display: flex;
+    flex-direction: row;
     overflow-x: auto;
     gap: 20px;
     width: 100%;
@@ -204,6 +210,7 @@ p{
 
 .video-container{
     display: flex;
+    flex-direction: row;
     gap: 60px;
 }
 
@@ -230,4 +237,10 @@ a:link{
 a:visited { 
     text-decoration: none; 
     color:inherit; 
+}
+
+.flourish-embed {
+    padding-top: 20px;
+    width:80%;
+    margin: auto;
 }
