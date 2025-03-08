@@ -88,6 +88,12 @@ h4{
     font-weight: 200;
 }
 
+h5{
+    font-size: 1.2em;
+    line-height: 1.0em;
+    font-weight: 400;
+}
+
 p{
     font-size: 1.1em;
     line-height: 1.2em;
@@ -167,14 +173,18 @@ p{
 
 .writing-container {
     width: 80%;
+    height: 650px;
     margin: auto;
-    padding-top: 30px;
-    text-align: left;
+    overflow-y: auto;
 }
 
-.writing-list {
-    height: auto;
-    overflow-y: auto;
+.writing-item{
+    margin:auto;
+}
+
+.writing-item p{
+    font-size: 0.9em;
+    line-height: 0.4em;
 }
 
 .visualization-container{
