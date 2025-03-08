@@ -109,6 +109,13 @@ p{
     font-weight: 100;
 }
 
+#byline {
+    font-size: 1.1em;
+    line-height: 1.0em;
+    font-weight: 400;
+    color:#180782;
+}
+
 .flex-container{
     display: flex;
     justify-content:space-evenly;
