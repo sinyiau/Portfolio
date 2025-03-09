@@ -10,12 +10,12 @@ images.forEach(image => {
 image.addEventListener('click', function() {
 lightbox.style.display = 'flex'; 
 lightboxImg.src = this.src;
-lightboxCaption.textContent = this.getAttribute ('data-caption');
+lightboxCaption.textContent = this.getAttribute ('data-caption'); //Added caption and content here//
 lightboxCredit.textContent = this.getAttribute ('data-credit');
 });
 });
 
-lightbox.addEventListener('click', function(event) {
+lightbox.addEventListener('click', function(event) { //The original code came with a close button, but I think it would be more convenient to let audience click whereever they want to close the lightbox, so I amended the code under AI's suggestion.//
     if (event.target === lightbox) {
     lightbox.style.display = 'none'; 
     }
