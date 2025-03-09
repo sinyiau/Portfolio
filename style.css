@@ -16,7 +16,7 @@
         font-size: 1.5em;
     }
 
-    .image-container, .flex-container, .visualization-container, .flex-container-2, .visualization-container, .gallery-container, .video-container { /*combined all the containers for styling*/ 
+    .image-container, .flex-container, .visualization-container, .flex-container-2, .visualization-container, .gallery-container, .video-container { /*combined all the containers for styling, still struggling with making them 100% width in portrait mode*/ 
        width: 100%;
     }
 
@@ -273,6 +273,7 @@ p{
     flex-direction: row;
     width: 100%;
     gap: 80px;
+    overflow-x: auto;
 }
 
 .video iframe{
