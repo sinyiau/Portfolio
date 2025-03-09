@@ -4,7 +4,7 @@ const lightboxImg = document.getElementById ('lightbox-img')
 const lightboxCaption = document.getElementById('lightbox-caption');
 const lightboxCredit = document.getElementById('lightbox-credit');
 
-const closeBtn= document.querySelector ('.close');
+lightbox.style.display = 'none';
 
 images.forEach(image => {
 image.addEventListener('click', function() {
