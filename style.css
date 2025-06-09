@@ -36,8 +36,8 @@
     margin: auto;
     transition: color .2s;
     text-decoration: none;
-    background-color: #180782;
-    color:white;
+    background-color: #212529;
+    color:#f8f9fa;
     border-radius: 50px;
     padding: 2px 45px;
     font-size: 0.9em;
@@ -45,15 +45,15 @@
 
     &:hover {
         color: white;
-        background-color:#393939
+        background-color:#180782
     }
 }
 
 body{
     padding-left: 10%;
     padding-right: 10%;
-    background-color: #f8f3f2;
-    color: #393939;
+    background-color: #f8f9fa;
+    color: #212529;
 }
 
 h1{
@@ -79,7 +79,7 @@ h3{
 h4{
     font-size: 1.2em;
     line-height: 1.2em;
-    background-color: #180782;
+    background-color: #212529;
     color:white;
     margin:auto;
     border-radius: 50px;
@@ -171,12 +171,12 @@ p{
 .image-box img {
     max-width: 100%;
     height: auto;
-    border: 3px solid #393939;
+    border: 3px solid #212529;
 }
 
 .image-box p{
     font-size: 0.9em;
-    color:#393939;
+    color:#212529;
     margin:auto;
     width: fit-content;
     font-weight: 200;
@@ -212,7 +212,7 @@ p{
 .visualization img{
     border-radius: 20px;
     height: 350px;
-    border: 3px solid #393939;
+    border: 3px solid #212529;
 }
 
 .gallery-container {
@@ -281,7 +281,7 @@ p{
     height: 360px;
     width: 540px;
     border-radius: 20px;
-    border:3px solid #393939;
+    border:3px solid #212529;
 }
 .spacer{
     height: 120px;
